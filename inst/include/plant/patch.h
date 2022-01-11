@@ -177,8 +177,8 @@ void Patch<T,E>::rescale_environment() {
 template <typename T, typename E>
 void Patch<T,E>::compute_rates() {
   double pr_patch_survival = survival_weighting->pr_survival(time());
+  
   std::vector<std::vector<double>> resource_depletion; // n_species x n_layers
-
   resource_depletion.reserve(size());
 
   for (size_t i = 0; i < size(); i++) {

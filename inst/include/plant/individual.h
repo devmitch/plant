@@ -159,7 +159,7 @@ public:
 
 private:
   strategy_type_ptr strategy;
-  Internals vars;
+   vars;
 };
 
 template <typename T, typename E> Individual<T,E> make_individual(T s) {

@@ -2,6 +2,7 @@
 #include <plant/util.h>
 #include <plant/util_post_rcpp.h> // to_rcpp_matrix
 #include <Rcpp.h>
+#include <iostream>
 
 namespace plant {
 namespace interpolator {
